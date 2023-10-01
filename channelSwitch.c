@@ -61,8 +61,8 @@ static void run (LV2_Handle instance, uint32_t sample_count){
             m->audio_out_b_ptr[i] = 0;
         }
         else{
-            m->audio_out_a_ptr[i] = 0;
             m->audio_out_b_ptr[i] = m->audio_in_ptr[i];
+            m->audio_out_a_ptr[i] = 0;
         }
     }
 }
