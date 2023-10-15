@@ -14,21 +14,21 @@
         [
             a lv2:InputPort , lv2:AudioPort ;
             lv2:index 0 ;
-            lv2:symbol "audio_in" ;
+            lv2:symbol "in" ;
             lv2:name "Audio input";
         ] , 
 
         [
             a lv2:OutputPort , lv2:AudioPort ;
             lv2:index 1 ;
-            lv2:symbol "audio_out_a" ;
+            lv2:symbol "out_a" ;
             lv2:name "Audio output A" ;
         ] ,
 
         [
             a lv2:OutputPort , lv2:AudioPort ;
             lv2:index 2 ;
-            lv2:symbol "audio_out_b" ;
+            lv2:symbol "out_b" ;
             lv2:name "Audio output B" ;
         ] ,
         
